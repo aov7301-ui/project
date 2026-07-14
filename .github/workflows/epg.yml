@@ -1,0 +1,103 @@
+name: Update EPG
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'   # tiap 6 jam (UTC)
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/epg.yml'
+      - 'epgs/custom.channels.xml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: epg-update
+  cancel-in-progress: false
+
+jobs:
+  build-epg:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Clone iptv-org/epg grabber
+        run: git clone --depth 1 https://github.com/iptv-org/epg.git epg-tool
+
+      - name: Install grabber dependencies
+        working-directory: epg-tool
+        run: npm ci
+
+      - name: Copy channel list
+        run: cp epgs/custom.channels.xml epg-tool/sites/custom.channels.xml
+
+      - name: Grab EPG
+        working-directory: epg-tool
+        run: |
+          npm run grab -- \
+            --channels=sites/custom.channels.xml \
+            --output=../epgs/guide.xml \
+            --maxConnections=8 \
+            --days=2
+
+      - name: Validate output
+        run: |
+          python3 - <<'PY'
+          import xml.etree.ElementTree as ET
+          import sys
+
+          try:
+              root = ET.parse("epgs/guide.xml").getroot()
+          except Exception as e:
+              print(f"FATAL: guide.xml is not well-formed XML: {e}")
+              sys.exit(1)
+
+          channels = len(root.findall("channel"))
+          programmes = len(root.findall("programme"))
+          print(f"Channels: {channels}, Programmes: {programmes}")
+
+          if channels == 0 or programmes == 0:
+              print("FATAL: empty guide, refusing to commit.")
+              sys.exit(1)
+          PY
+
+      - name: Compress to guide.xml.gz
+        run: gzip -kf epgs/guide.xml
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add epgs/
+
+          if git diff --cached --quiet; then
+            echo "No changes, skipping commit."
+            exit 0
+          fi
+
+          git commit -m "Auto-update EPG $(date -u '+%Y-%m-%d %H:%M UTC')"
+
+          for i in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main -Xtheirs || { git rebase --abort; exit 1; }
+            if git push origin main; then
+              echo "Push succeeded."
+              exit 0
+            fi
+            sleep 2
+          done
+
+          echo "Push failed after 3 attempts."
+          exit 1

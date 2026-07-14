@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+  <channel site="vidio.com" lang="id" xmltv_id="ANTV.id@SD" site_id="782">ANTV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="BTV.id@SD" site_id="6165">BTV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="BeritaSatu.id@SD" site_id="18280">Berita Satu</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="GTV.id@SD" site_id="778">GTV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="GarudaTV.id@SD" site_id="18162">Garuda TV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="Indosiar.id@SD" site_id="205">Indosiar</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="KompasTV.id@SD" site_id="874">Kompas TV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="MNCTV.id@SD" site_id="870">MNCTV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="MentariTV.id@SD" site_id="8237">Mentari TV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="MetroTV.id@SD" site_id="777">Metro TV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="Moji.id@SD" site_id="206">Moji</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="RCTI.id@SD" site_id="665">RCTI</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="RajawaliTV.id@SD" site_id="1561">RTV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="SCTV.id@SD" site_id="204">SCTV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="TVRI.id@HD" site_id="6441">TVRI</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="Trans7.id@SD" site_id="734">Trans7</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="TransTV.id@SD" site_id="733">TRANS TV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="iNews.id@SD" site_id="5409">iNews</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="tvOne.id@SD" site_id="783">TVOne</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="NusantaraTV.id@SD" site_id="7432">Nusantara TV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="JakTV.id@SD" site_id="5415">Jaktv</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="JTV.id@SD" site_id="9713">JTV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="JawaPosTV.id@SD" site_id="9714">jawaposTV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="ElshintaTV.id@SD" site_id="10975">Elshinta TV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="DAAITV.id@SD" site_id="6482">DAAI TV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="MagnaChannel.id@SD" site_id="7230">Magna TV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="MDTV.id@HD" site_id="875">MDTV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="SinPoTV.id@HD" site_id="19046">Sin Po TV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="UChannel.id@SD" site_id="6898">U-Channel TV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="AjwaTV.id@SD" site_id="7464">AJWA TV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="DMITV.id@SD" site_id="12607">DMI TV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="Horee.id@SD" site_id="6397">Horee</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="HipHipHoree.id@SD" site_id="7052">Hip Hip Horee!</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="CitraDrama.id@SD" site_id="21179">Citra Drama</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="beINSports1.qa@Indonesia" site_id="6299">Bein Sports 1</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="beINSports2.qa@MENA" site_id="17875">Bein Sports 2</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="beINSports3.qa@Indonesia" site_id="6317">Bein Sports 3</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="SPOTV.id@SD" site_id="17139">SPOTV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="SPOTV2.id@SD" site_id="17140">SPOTV 2</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="ChampionsTV1.id@SD" site_id="6685">Champions TV 1</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="ChampionsTV2.id@SD" site_id="6686">Champions TV 2</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="ChampionsTV3.id@SD" site_id="6786">Champions TV 3</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="ChampionsTV5.id@SD" site_id="9182">Champions TV 5</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="ChampionsTV6.id@SD" site_id="9183">Champions TV 6</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="ChampionsTVEPL.id@SD" site_id="9353">Premier League TV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="ChampionsFight.id@HD" site_id="20216">Champions Fight</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="ChampionsGolf1.id@HD" site_id="18189">Champions Golf 1</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="ChampionsGolf2.id@HD" site_id="18190">Champions Golf 2</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="RealMadridTVEnglish.es@SD" site_id="19538">Real Madrid TV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="ROCKAction.sg@SD" site_id="8121">Rock Action</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="AlJazeera.qa@Arabic" site_id="6410">Aljazeera</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="CNA.sg@SD" site_id="6411">CNA</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="DW.de@English" site_id="5075">DW English</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="EuronewsEnglish.fr@SD" site_id="6412">Euronews</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="AfricanewsEnglish.fr@SD" site_id="12784">Africanews</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="ABCAustralia.au@SD" site_id="7150">ABC Australia</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="ArirangTV.kr@SD" site_id="6784">Arirang</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="NHKWorldJapan.jp@SD" site_id="7968">NHK World Japan</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="TV5MondeAsia.fr@SD" site_id="17278">TV5Monde</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="tvNAsia.hk@SD" site_id="6362">TVN</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="MakkahTV.sa@SD" site_id="6852">Makkah TV</channel>
+  <channel site="vidio.com" lang="id" xmltv_id="DaystarTV.us@SD" site_id="18622">Daystar TV</channel>
+</channels>

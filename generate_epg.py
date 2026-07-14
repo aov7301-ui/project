@@ -19,6 +19,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.join(BASE_DIR, "epgs")
 OUTPUT_XML = os.path.join(OUTPUT_DIR, "guide.xml")
 OUTPUT_GZ = os.path.join(OUTPUT_DIR, "guide.xml.gz")
+EXTRA_IDS_FILE = os.path.join(OUTPUT_DIR, "extra_ids.txt")
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -35,9 +36,23 @@ PRUNE_OLDER_THAN_HOURS = 6
 MIN_PROGRAMME_SANITY_THRESHOLD = 50
 
 
+def get_extra_ids_from_file() -> Optional[set[str]]:
+    """Daftar tvg-id alternatif dari epgs/extra_ids.txt (satu id per baris, # = komentar)."""
+    if not os.path.exists(EXTRA_IDS_FILE):
+        return None
+    ids: set[str] = set()
+    with open(EXTRA_IDS_FILE, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith("#"):
+                ids.add(line)
+    print(f"Loaded {len(ids)} tvg-ids from {os.path.basename(EXTRA_IDS_FILE)}")
+    return ids or None
+
+
 def get_tvg_ids_from_m3u() -> Optional[set[str]]:
     if not M3U_URL:
-        print("CRITICAL: M3U_URL secret not set.")
+        print("M3U_URL secret not set, falling back to extra_ids.txt.")
         return None
     print("Downloading M3U playlist...")
     try:
@@ -202,10 +217,10 @@ def save_epg(root: ET.Element) -> None:
 
 
 def main() -> None:
-    valid_ids = get_tvg_ids_from_m3u()
+    valid_ids = get_tvg_ids_from_m3u() or get_extra_ids_from_file() or set()
     if not valid_ids:
-        print("Aborting: valid_ids required for filtering.")
-        sys.exit(1)
+        print("No M3U_URL secret and no ids in epgs/extra_ids.txt: "
+              "skipping FAST-channel merge, repacking base guide only.")
 
     master_root = load_base_epg()
     seen_channel_ids = {ch.get("id") for ch in master_root.findall("channel") if ch.get("id")}
@@ -216,11 +231,12 @@ def main() -> None:
     print(f"Base channel IDs tracked: {len(seen_channel_ids)}")
     print(f"Base programme keys tracked: {len(seen_programme_keys)}")
 
-    print("\nInjecting remote EPG sources...")
-    for url in REMOTE_EPG_URLS:
-        channels, programmes = fetch_epg_elements(url, valid_ids)
-        merge_into_root(master_root, channels, programmes, seen_channel_ids, seen_programme_keys)
-        time.sleep(1)
+    if valid_ids:
+        print("\nInjecting remote EPG sources...")
+        for url in REMOTE_EPG_URLS:
+            channels, programmes = fetch_epg_elements(url, valid_ids)
+            merge_into_root(master_root, channels, programmes, seen_channel_ids, seen_programme_keys)
+            time.sleep(1)
 
     final_channels = len(master_root.findall("channel"))
     final_programmes = len(master_root.findall("programme"))

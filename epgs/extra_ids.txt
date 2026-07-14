@@ -1,0 +1,11 @@
+# Daftar tvg-id channel FAST (PlutoTV / Roku / SamsungTVPlus / Xumo / TCL)
+# yang mau digabungkan ke guide.xml oleh generate_epg.py.
+# Satu id per baris. Baris diawali # diabaikan.
+#
+# Sumber id bisa dilihat di:
+#   https://i.mjh.nz/PlutoTV/          (PlutoTV, mis. us#5e20b730f2f8d5003d739db7)
+#   https://i.mjh.nz/SamsungTVPlus/
+#   https://i.mjh.nz/Roku/
+#
+# Contoh:
+# 5e20b730f2f8d5003d739db7

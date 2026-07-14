@@ -20,6 +20,7 @@ OUTPUT_DIR = os.path.join(BASE_DIR, "epgs")
 OUTPUT_XML = os.path.join(OUTPUT_DIR, "guide.xml")
 OUTPUT_GZ = os.path.join(OUTPUT_DIR, "guide.xml.gz")
 EXTRA_IDS_FILE = os.path.join(OUTPUT_DIR, "extra_ids.txt")
+PLAYLISTS_DIR = os.path.join(BASE_DIR, "playlists")
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -48,6 +49,28 @@ def get_extra_ids_from_file() -> Optional[set[str]]:
                 ids.add(line)
     print(f"Loaded {len(ids)} tvg-ids from {os.path.basename(EXTRA_IDS_FILE)}")
     return ids or None
+
+
+def get_ids_from_local_playlists() -> set[str]:
+    """Kumpulkan tvg-id dari playlist hasil generate di folder playlists/.
+    Dengan ini EPG channel FAST (Pluto/Samsung/Roku/TCL) otomatis sinkron
+    dengan playlist tanpa perlu secret M3U_URL."""
+    ids: set[str] = set()
+    if not os.path.isdir(PLAYLISTS_DIR):
+        return ids
+    for name in os.listdir(PLAYLISTS_DIR):
+        if not (name.endswith(".m3u") or name.endswith(".m3u8")):
+            continue
+        path = os.path.join(PLAYLISTS_DIR, name)
+        try:
+            with open(path, encoding="utf-8", errors="replace") as f:
+                found = set(re.findall(r'tvg-id="([^"]+)"', f.read()))
+            if found:
+                print(f"  playlists/{name}: {len(found)} tvg-ids")
+                ids |= found
+        except Exception as e:
+            print(f"  ! Failed to read playlists/{name}: {e}")
+    return ids
 
 
 def get_tvg_ids_from_m3u() -> Optional[set[str]]:
@@ -217,9 +240,14 @@ def save_epg(root: ET.Element) -> None:
 
 
 def main() -> None:
-    valid_ids = get_tvg_ids_from_m3u() or get_extra_ids_from_file() or set()
+    valid_ids: set[str] = set()
+    valid_ids |= get_tvg_ids_from_m3u() or set()
+    valid_ids |= get_extra_ids_from_file() or set()
+    print("Scanning local playlists for tvg-ids...")
+    valid_ids |= get_ids_from_local_playlists()
+    print(f"Total tvg-ids for FAST-channel merge: {len(valid_ids)}")
     if not valid_ids:
-        print("No M3U_URL secret and no ids in epgs/extra_ids.txt: "
+        print("No tvg-ids found (M3U_URL / extra_ids.txt / playlists): "
               "skipping FAST-channel merge, repacking base guide only.")
 
     master_root = load_base_epg()

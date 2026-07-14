@@ -646,4 +646,4 @@ if __name__ == "__main__":
     generate_roku_m3u()
     generate_tcl_m3u()
     generate_pluto_m3u()
-    generate_samsungtvplus_m3u()
+    generate_samsungtvplus_m3u()# retrigger

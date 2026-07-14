@@ -62,4 +62,5 @@
   <channel site="vidio.com" lang="id" xmltv_id="tvNAsia.hk@SD" site_id="6362">TVN</channel>
   <channel site="vidio.com" lang="id" xmltv_id="MakkahTV.sa@SD" site_id="6852">Makkah TV</channel>
   <channel site="vidio.com" lang="id" xmltv_id="DaystarTV.us@SD" site_id="18622">Daystar TV</channel>
+  <channel site="playtv.unifi.com.my" site_id="54185493" lang="my" xmltv_id="UnifiSports1.my@SD">unifi Sports 1</channel>
 </channels>

@@ -29,3 +29,11 @@
 # --- Roku ---
 40d73ba5be775428a377908b02033b4c
 302d8d86738c0ab83d0ca3a5e2df3492
+
+# --- Unifi TV (sumber: AqFad2811/epg unifitv.xml) ---
+# 701 = Unifi Sports 1, 702-705 = Unifi FIFA World Cup 2026 1-4
+701
+702
+703
+704
+705

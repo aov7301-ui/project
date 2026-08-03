@@ -1,21 +1,11 @@
 #EXTM3U
 
 # === RCTI+ SECTION ===
-# Updated: 2026-08-03 09:54:42
-
-#EXTINF:-1 tvg-id="RCTI" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png",RCTI
-#EXTVLCOPT:http-referrer=https://m.rctiplus.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1785786881~hmac=b9ee3d6caeabe99ab383de0be3530da7d2300a84898c053456ee76f9c46ba822
+# Updated: 2026-08-03 14:49:28
 
 #EXTINF:-1 tvg-id="MNCTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png",MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1785786881~hmac=f8a1545655b5087d00724726ae520583983854ae29cecb27bc790867a49538bc
-
-#EXTINF:-1 tvg-id="GTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png",GTV
-#EXTVLCOPT:http-referrer=https://m.rctiplus.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1785786882~hmac=6e7375037fb4c36177c015af4ab77d05d24c87305bb2ed9a70dacd60a5df53b4
+https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1785804567~hmac=f2a466bbcec46185b1dd2fa585d73401f020ef56afc1bd3828ea1bdf54423980
 
 # === END RCTI+ SECTION ===

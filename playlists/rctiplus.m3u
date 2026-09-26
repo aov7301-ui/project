@@ -1,22 +1,22 @@
 #EXTM3U
-# Generated: 2026-09-26 11:05:47
+# Generated: 2026-09-26 16:06:26
 
 #EXTINF:-1 tvg-id="RCTI" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png",RCTI
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1790456746~hmac=eb5d5b03a9af1ca63cbf35ab8ead3ba8b2a92dd059dd61429842120d60c91333
+https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1790474785~hmac=95d92c92765b1f616170754b93a3097a22d0844b7554d0a1b619f3be9d4d7b62
 
 #EXTINF:-1 tvg-id="MNCTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png",MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1790456746~hmac=e38793b78b1e237dfc989c384aafb39ca228547e3b9c052808628f4a9dc52561
+https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1790474785~hmac=9f680e1ef3e53c40316bc3a3dca79f21f45e95e812c29a42cc1ea7590e5464fe
 
 #EXTINF:-1 tvg-id="GTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png",GTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1790456746~hmac=438b71ade2220e8ee8eec5d1661ea16c3087cc4d4cc12dd138b39963b581b64c
+https://midcache-nt.rctiplus.id/abvia/itaitu/manifest720.m3u8
 
 #EXTINF:-1 tvg-id="iNews" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png",iNews
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1790456747~hmac=606cb37b42bc4bf137718fe48c219f818a25442d1563457128c45a6b6181c7e8
+https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1790474786~hmac=e37d30b7c78562592bd264612d0156559aaf2aca9dc703fbeae6df066b89dcc8

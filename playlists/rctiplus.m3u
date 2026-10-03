@@ -1,12 +1,22 @@
 #EXTM3U
-# Generated: 2026-10-03 15:59:47
+# Generated: 2026-10-03 20:49:42
+
+#EXTINF:-1 tvg-id="RCTI" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png",RCTI
+#EXTVLCOPT:http-referrer=https://m.rctiplus.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1791096581~hmac=ce75d11fe662b3aaf5739b199f903b2c539a1ba50d5b897fd794c3c670885e3a
 
 #EXTINF:-1 tvg-id="MNCTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png",MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1791079187~hmac=913d74b795e070c2f616ad3865e598d844a7864b3b8c226297031bb4b49c5bcc
+https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1791096581~hmac=8e74058ed9a09fa057e6a85a32c1a093cbd185507fee60384b7c0f5a4372691e
+
+#EXTINF:-1 tvg-id="GTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png",GTV
+#EXTVLCOPT:http-referrer=https://m.rctiplus.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1791096581~hmac=84379873cfff673308a2a9fb698712ee74a543267c3ea02066f73dc8ef01ce13
 
 #EXTINF:-1 tvg-id="iNews" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png",iNews
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1791079187~hmac=eaead25b2712faa4bd19081ae7004f39d6191beca02fc00663be2344339be79e
+https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1791096582~hmac=33477a008e731789161d8cd6789dddb484cbcc16fad3d9f0829efb13d45cf282

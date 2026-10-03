@@ -1,22 +1,22 @@
 #EXTM3U
-# Generated: 2026-10-03 04:39:20
+# Generated: 2026-10-03 11:21:59
 
 #EXTINF:-1 tvg-id="RCTI" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png",RCTI
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1791038359~hmac=205178e9a9b7c27e29d6597d1924024828db18af11315ae73715bc7078c60532
+https://rcti-linier.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1791062517~hmac=ba3d9b62634c8441f130a1e7b4b9cd137d002faca6298c63b210e330ace32b7f
 
 #EXTINF:-1 tvg-id="MNCTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png",MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1791038359~hmac=9f071eb6c6c1226a2f36f2f03e44859366208757bf1cc96a2ba55f11215205f8
+https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1791062518~hmac=c756be54684671cf1a210838ec984b5bd2bd94415643adc13b64214a2a5b75e5
 
 #EXTINF:-1 tvg-id="GTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png",GTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1791038360~hmac=f39aea2ab61561bca98bf0a18af3efcdfd9191798d4319904bc801ab40d60c03
+https://gtv-linier.rctiplus.id/gtv-sdi.m3u8?hdnts=exp=1791062518~hmac=efb70abc5ca3f9ed56e4649494b01626b4e3ebdcd2559dcfaa5c8e69d9ee6d5a
 
 #EXTINF:-1 tvg-id="iNews" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png",iNews
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1791038360~hmac=8566ebf939e9a59deb82de0569475782500e5f6f1722d9db61676ade42b88bdc
+https://inews-linier.rctiplus.id/inews-sdi.m3u8?hdnts=exp=1791062518~hmac=15719c65c66ff376011feb782d3cdf61273334997a67e0999a0a8cd621e46b60

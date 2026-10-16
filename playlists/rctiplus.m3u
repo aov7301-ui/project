@@ -1,22 +1,22 @@
 #EXTM3U
-# Generated: 2026-10-16 03:56:10
+# Generated: 2026-10-16 11:03:27
 
 #EXTINF:-1 tvg-id="RCTI" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png",RCTI
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy-b.rctiplus.id/live/mweb/rcti/rcti-sdi.m3u8?auth_key=1792133769-6cc4e5d5f721ebf9df9372260324e226-0-d0c8687019f7b3acdf843b35c5b3f4fa
+https://nontonlagi.rctiplus.id/abvia/missind/manifest720.m3u8
 
 #EXTINF:-1 tvg-id="MNCTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png",MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy-b.rctiplus.id/live/mweb/mnctv/mnctv-sdi.m3u8?auth_key=1792133769-0df2d19b78be2691b117769e49d2b3a0-0-7903e6d38a415d154f200b7eceed1e5d
+https://proxy-b.rctiplus.id/live/mweb/mnctv/mnctv-sdi.m3u8?auth_key=1792159406-4dbeb0ac80b82761961a5f92b093af1d-0-8d104b3c6f3ba11bf332b200c7e41db9
 
 #EXTINF:-1 tvg-id="GTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png",GTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy-b.rctiplus.id/live/mweb/gtv/gtv-sdi.m3u8?auth_key=1792133769-c50b40a1382a01fc11a5cf0edd4976fa-0-1ab1871b95e6ab1a2bb2e3cda8e89add
+https://proxy-b.rctiplus.id/live/mweb/gtv/gtv-sdi.m3u8?auth_key=1792159406-2e642c74f0b330a32116666155493f41-0-e0ee1259aac7af188cdf5278706326f2
 
 #EXTINF:-1 tvg-id="iNews" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png",iNews
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy-b.rctiplus.id/live/mweb/inews/inews-sdi.m3u8?auth_key=1792133770-3e4994ececee64eb652f4ffcc78b08bc-0-ef13fe93b72d8341bd1883477921bbc4
+https://proxy-b.rctiplus.id/live/mweb/inews/inews-sdi.m3u8?auth_key=1792159406-29bc2b2814eff252af38bd3bbe8e9e21-0-ed296236122a6659d5147bc7950adb8d

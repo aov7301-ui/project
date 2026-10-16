@@ -1,26 +1,26 @@
 #EXTM3U
 
 # === RCTI+ SECTION ===
-# Updated: 2026-10-16 11:03:27
+# Updated: 2026-10-16 16:23:02
 
 #EXTINF:-1 tvg-id="RCTI" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png",RCTI
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://nontonlagi.rctiplus.id/abvia/missind/manifest720.m3u8
+https://proxy-b.rctiplus.id/live/mweb/rcti/rcti-sdi.m3u8?auth_key=1792178581-2cac1f0c9ecd2980e92dc89f9bf719d1-0-2b33710f2be55fb15ec386caff25c217
 
 #EXTINF:-1 tvg-id="MNCTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png",MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy-b.rctiplus.id/live/mweb/mnctv/mnctv-sdi.m3u8?auth_key=1792159406-4dbeb0ac80b82761961a5f92b093af1d-0-8d104b3c6f3ba11bf332b200c7e41db9
+https://proxy-b.rctiplus.id/live/mweb/mnctv/mnctv-sdi.m3u8?auth_key=1792178581-66d002d99a7c75ac411984c1d1aaa47c-0-71dc62e2648315a81370071de8eadf6c
 
 #EXTINF:-1 tvg-id="GTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png",GTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy-b.rctiplus.id/live/mweb/gtv/gtv-sdi.m3u8?auth_key=1792159406-2e642c74f0b330a32116666155493f41-0-e0ee1259aac7af188cdf5278706326f2
+https://proxy-b.rctiplus.id/live/mweb/gtv/gtv-sdi.m3u8?auth_key=1792178582-db1ef9a2b5ad4c1686bde8af35a0995c-0-155dcdad2f7f663b66ea427e7949d5d1
 
 #EXTINF:-1 tvg-id="iNews" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png",iNews
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy-b.rctiplus.id/live/mweb/inews/inews-sdi.m3u8?auth_key=1792159406-29bc2b2814eff252af38bd3bbe8e9e21-0-ed296236122a6659d5147bc7950adb8d
+https://proxy-b.rctiplus.id/live/mweb/inews/inews-sdi.m3u8?auth_key=1792178582-5b5042cbdec15a76f41851fd7df18320-0-bfa3025cfdef4c9b5f1de197d28b6bb0
 
 # === END RCTI+ SECTION ===

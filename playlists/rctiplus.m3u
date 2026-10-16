@@ -1,22 +1,22 @@
 #EXTM3U
-# Generated: 2026-10-16 16:23:02
+# Generated: 2026-10-16 20:44:57
 
 #EXTINF:-1 tvg-id="RCTI" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png",RCTI
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy-b.rctiplus.id/live/mweb/rcti/rcti-sdi.m3u8?auth_key=1792178581-2cac1f0c9ecd2980e92dc89f9bf719d1-0-2b33710f2be55fb15ec386caff25c217
+https://proxy-b.rctiplus.id/live/mweb/rcti/rcti-sdi.m3u8?auth_key=1792194296-5ca62fc2238db02095e0b324d28cb319-0-695259450f2bfb10ae97b8912eaefa60
 
 #EXTINF:-1 tvg-id="MNCTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png",MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy-b.rctiplus.id/live/mweb/mnctv/mnctv-sdi.m3u8?auth_key=1792178581-66d002d99a7c75ac411984c1d1aaa47c-0-71dc62e2648315a81370071de8eadf6c
+https://proxy-b.rctiplus.id/live/mweb/mnctv/mnctv-sdi.m3u8?auth_key=1792194296-a34fa8ed0c932dac39db37d018d73104-0-141f80348611f49b1118327a0e69f65b
 
 #EXTINF:-1 tvg-id="GTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png",GTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy-b.rctiplus.id/live/mweb/gtv/gtv-sdi.m3u8?auth_key=1792178582-db1ef9a2b5ad4c1686bde8af35a0995c-0-155dcdad2f7f663b66ea427e7949d5d1
+https://proxy-b.rctiplus.id/live/mweb/gtv/gtv-sdi.m3u8?auth_key=1792194296-e97a63548f9f3300d0b47f0f84568bcd-0-0775b35bfb8fc74c1b7c4960df34105a
 
 #EXTINF:-1 tvg-id="iNews" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png",iNews
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy-b.rctiplus.id/live/mweb/inews/inews-sdi.m3u8?auth_key=1792178582-5b5042cbdec15a76f41851fd7df18320-0-bfa3025cfdef4c9b5f1de197d28b6bb0
+https://proxy-b.rctiplus.id/live/mweb/inews/inews-sdi.m3u8?auth_key=1792194296-7118c6989d1de1000438a6332f4a203e-0-27a02bcf910b1c11c46fe53f5cd746e3

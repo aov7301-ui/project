@@ -1,22 +1,22 @@
 #EXTM3U
-# Generated: 2026-10-24 20:29:50
+# Generated: 2026-10-25 04:00:01
 
 #EXTINF:-1 tvg-id="RCTI" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png",RCTI
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy-b.rctiplus.id/live/mweb/rcti/index.m3u8?auth_key=1792884589-1ff7cbf8e283e6566a4ed9e68448ccf8-0-d7435925d80ac5f42ff7140c81e3ee51
+https://proxy-b.rctiplus.id/live/mweb/rcti/index.m3u8?auth_key=1792911600-dac77a2488243d1041fd14738bd4f126-0-8353c7f075930d072984135744f3f367
 
 #EXTINF:-1 tvg-id="MNCTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png",MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy-b.rctiplus.id/live/mweb/mnctv/index.m3u8?auth_key=1792884589-e71027eed32a74484c484413c0b6dcc5-0-dbb48fe0cd1dec40e9ab497862154da6
+https://proxy-b.rctiplus.id/live/mweb/mnctv/index.m3u8?auth_key=1792911600-a38e9a3d1f86cea97e4b7c0ee8d0fbc9-0-7d1b88e648b86fb82bedb559c21c259d
 
 #EXTINF:-1 tvg-id="GTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png",GTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy-b.rctiplus.id/live/mweb/gtv/index.m3u8?auth_key=1792884590-ea4becfa1220d6fc430b4c466219f9ad-0-bbbe76ece385d2f71b45d1d1ade4740d
+https://proxy-b.rctiplus.id/live/mweb/gtv/index.m3u8?auth_key=1792911601-b98e8e6726a51c89672caf57a993c82f-0-992e235a785a1ef94b8ab2bf8deee5d2
 
 #EXTINF:-1 tvg-id="iNews" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png",iNews
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy-b.rctiplus.id/live/mweb/inews/index.m3u8?auth_key=1792884590-6b40f1e1b705351b471713ff74b502e1-0-80062be15d8ac5bae8ee6d0b753f9d5d
+https://proxy-b.rctiplus.id/live/mweb/inews/index.m3u8?auth_key=1792911601-10ee3538129edbca26a13ad394bc9575-0-f8c1166e8eb038fb701c8d8a7172f4fc

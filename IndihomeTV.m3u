@@ -1,26 +1,26 @@
 #EXTM3U
 
 # === RCTI+ SECTION ===
-# Updated: 2026-10-29 05:06:35
+# Updated: 2026-10-29 12:37:00
 
 #EXTINF:-1 tvg-id="RCTI" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png",RCTI
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy-b.rctiplus.id/live/mweb/rcti/index.m3u8?auth_key=1793261194-e922741acdd07bb9b11450b24124f790-0-6196241adfbface82a09a03739f97e17
+https://proxy-b.rctiplus.id/live/mweb/rcti/index.m3u8?auth_key=1793288218-549aa153aa80bf12ee305b194c97b8f6-0-3274ef19d44f4b46e733d4d49f77a14d
 
 #EXTINF:-1 tvg-id="MNCTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png",MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy-b.rctiplus.id/live/mweb/mnctv/index.m3u8?auth_key=1793261195-7acdfdfb67fe0218550f2a1c6be647ef-0-788953dedab2da0067ec121514c0ecba
+https://proxy-b.rctiplus.id/live/mweb/mnctv/index.m3u8?auth_key=1793288219-ef93a41014b8446093eedaa39b1e5684-0-ca44b1da8b4dd497187a9d189fe59fab
 
 #EXTINF:-1 tvg-id="GTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png",GTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy-b.rctiplus.id/live/mweb/gtv/index.m3u8?auth_key=1793261195-c19f08737e6c81f10bce06d61adf7c30-0-d848268b5ae9c80444c80a513af6ebb9
+https://proxy-b.rctiplus.id/live/mweb/gtv/index.m3u8?auth_key=1793288219-14f08fb359eaa1181b46ed8191226926-0-2f3736de0e5dccc17f7203a3a4842d8e
 
 #EXTINF:-1 tvg-id="iNews" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png",iNews
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy-b.rctiplus.id/live/mweb/inews/index.m3u8?auth_key=1793261195-f3d775db108fe01419c5117c9e1553e8-0-86f1335a7dcfa8a9afedb10514c8a851
+https://proxy-b.rctiplus.id/live/mweb/inews/index.m3u8?auth_key=1793288220-cf7d6bd58c9176ad03bfc2a7da8c72d0-0-326c44752654e8b60982778cf8c9eb48
 
 # === END RCTI+ SECTION ===

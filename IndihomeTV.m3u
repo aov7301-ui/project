@@ -1,21 +1,26 @@
 #EXTM3U
 
 # === RCTI+ SECTION ===
-# Updated: 2026-11-03 13:54:08
+# Updated: 2026-11-03 23:02:59
 
 #EXTINF:-1 tvg-id="RCTI" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png",RCTI
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy-b.rctiplus.id/live/mweb/rcti/index.m3u8?auth_key=1793724847-580122789e28596853c0c1e9d6f3b19f-0-fa233b78284d563883c29f094f1d0a8d
+https://proxy-b.rctiplus.id/live/mweb/rcti/index.m3u8?auth_key=1793757777-6e8656d74cb063bb59e01d5a976bdd51-0-072533db7927ea1f96538f5dcf3248bb
 
 #EXTINF:-1 tvg-id="MNCTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png",MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy-b.rctiplus.id/live/mweb/mnctv/index.m3u8?auth_key=1793724848-5bd34e045f8f41c8c8d1f97c62cb989b-0-89c394140666c17d7be844f43c73341d
+https://proxy-b.rctiplus.id/live/mweb/mnctv/index.m3u8?auth_key=1793757778-e4927d4dafffd300c969e2a11fc12149-0-a5b3822362a3a361d724fd85b4d1eb56
+
+#EXTINF:-1 tvg-id="GTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png",GTV
+#EXTVLCOPT:http-referrer=https://m.rctiplus.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://proxy-b.rctiplus.id/live/mweb/gtv/index.m3u8?auth_key=1793757778-903f4840b723135c12afc02b73769a92-0-ad6f906fd57fa5036c208a29cf10d350
 
 #EXTINF:-1 tvg-id="iNews" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png",iNews
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy-b.rctiplus.id/live/mweb/inews/index.m3u8?auth_key=1793724848-4ee407ecd3dccd825c9e619690484335-0-e235bbb348ac54a7bc2fbaf53fe09d07
+https://proxy-b.rctiplus.id/live/mweb/inews/index.m3u8?auth_key=1793757778-79343008e11cdfee3bfdbad16f30b648-0-172109e8913e9e33ec6b3653ac5569ad
 
 # === END RCTI+ SECTION ===

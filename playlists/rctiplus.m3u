@@ -1,7 +1,7 @@
 #EXTM3U
-# Generated: 2026-11-19 15:30:23
+# Generated: 2026-11-20 00:27:28
 
 #EXTINF:-1 tvg-id="MNCTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png",MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy-b.rctiplus.id/live/mweb/mnctv/index.m3u8?auth_key=1795113022-4073d9ce1b99566fdd9aa4b461087062-0-9c7a6d2eeab5d487e4404691379adfb7
+https://proxy-b.rctiplus.id/live/mweb/mnctv/index.m3u8?auth_key=1795145247-541c0c82d4864fbcb9a8ec81bf9fd46f-0-2aa3e953e288ab5e75d2a15c07c5a13e

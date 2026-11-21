@@ -1,26 +1,26 @@
 #EXTM3U
 
 # === RCTI+ SECTION ===
-# Updated: 2026-11-21 06:25:49
+# Updated: 2026-11-21 18:55:31
 
 #EXTINF:-1 tvg-id="RCTI" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png",RCTI
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy-b.rctiplus.id/live/mweb/rcti/index.m3u8?auth_key=1795253149-ec2f3d73a20ae41381f47cb4aa8f3a80-0-f40b56229ee0e068e745b46ad737f9e5
+https://linier-rcti.rctiplus.id/rcti-sdi.m3u8?auth_key=1795298130-4e7ef6659c7330d2203a3a492fa894eb-0-5cb0b80e5e9fee3b43d8b518f214bf0f
 
 #EXTINF:-1 tvg-id="MNCTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png",MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy-b.rctiplus.id/live/mweb/mnctv/index.m3u8?auth_key=1795253149-dedb7cb62bbac1af8798205be0c759a7-0-64ff4ec9a5e8594bb1d7ad5bf552736d
+https://linier-mnctv.rctiplus.id/mnctv-sdi.m3u8?auth_key=1795298130-bc66389a5a144086738e97976b5c65ce-0-b8b0988c59db3dbcb20508b7208cab1e
 
 #EXTINF:-1 tvg-id="GTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png",GTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy-b.rctiplus.id/live/mweb/gtv/index.m3u8?auth_key=1795253149-cb9259551f42693424c47b54d1fcf779-0-d2b8395375dc62143741c04f3478d6e9
+https://linier-gtv.rctiplus.id/gtv-sdi.m3u8?auth_key=1795298130-c4235c130ea0930031b3ff0fcf8100fc-0-738666bda64af056cb3acf641ecc7938
 
 #EXTINF:-1 tvg-id="iNews" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png",iNews
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://proxy-b.rctiplus.id/live/mweb/inews/index.m3u8?auth_key=1795253149-9d79562e2f7cc775f9ebc56f7d270ec9-0-9be1554a73386107a903135293ee8424
+https://linier-inews.rctiplus.id/inews-sdi.m3u8?auth_key=1795298131-e4233a8387593d5a27d0208e69db3317-0-91600c00f6b4ff2d8e5db0e8c152b8a7
 
 # === END RCTI+ SECTION ===

@@ -1,22 +1,22 @@
 #EXTM3U
-# Generated: 2026-11-21 18:55:31
+# Generated: 2026-11-22 05:56:24
 
 #EXTINF:-1 tvg-id="RCTI" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png",RCTI
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://linier-rcti.rctiplus.id/rcti-sdi.m3u8?auth_key=1795298130-4e7ef6659c7330d2203a3a492fa894eb-0-5cb0b80e5e9fee3b43d8b518f214bf0f
+https://linier-rcti.rctiplus.id/rcti-sdi.m3u8?auth_key=1795337784-6742ecdbabe8a27c1eb06001cda16c23-0-984335b8cbfae265a1b0aed8a09bffc4
 
 #EXTINF:-1 tvg-id="MNCTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png",MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://linier-mnctv.rctiplus.id/mnctv-sdi.m3u8?auth_key=1795298130-bc66389a5a144086738e97976b5c65ce-0-b8b0988c59db3dbcb20508b7208cab1e
+https://linier-mnctv.rctiplus.id/mnctv-sdi.m3u8?auth_key=1795337784-9c6c109796b47c5e878bafc28fe7563e-0-92f93dc4989c8743310a68f9ec28a923
 
 #EXTINF:-1 tvg-id="GTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png",GTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://linier-gtv.rctiplus.id/gtv-sdi.m3u8?auth_key=1795298130-c4235c130ea0930031b3ff0fcf8100fc-0-738666bda64af056cb3acf641ecc7938
+https://linier-gtv.rctiplus.id/gtv-sdi.m3u8?auth_key=1795337784-455f99971998aa2be079200e072ebcc7-0-32397fe5758cba76792f72dd6a988950
 
 #EXTINF:-1 tvg-id="iNews" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png",iNews
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://linier-inews.rctiplus.id/inews-sdi.m3u8?auth_key=1795298131-e4233a8387593d5a27d0208e69db3317-0-91600c00f6b4ff2d8e5db0e8c152b8a7
+https://linier-inews.rctiplus.id/inews-sdi.m3u8?auth_key=1795337784-8a25fd9d77817dee08b725222947d557-0-bca932a0b5490db64e0828bb15a8e3e7

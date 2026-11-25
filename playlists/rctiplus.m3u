@@ -1,22 +1,22 @@
 #EXTM3U
-# Generated: 2026-11-24 22:09:32
+# Generated: 2026-11-25 07:48:55
 
 #EXTINF:-1 tvg-id="RCTI" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png",RCTI
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://linier-rcti.rctiplus.id/rcti-sdi.m3u8?auth_key=1795568971-51196932a142279dfdfa6a4e5fdc36d9-0-75d27a89e4c450487936b7a8d3192b54
+https://linier-rcti.rctiplus.id/rcti-sdi.m3u8?auth_key=1795603734-ceeedbb64d4946c8db855dea75a03a4e-0-0b2540aea2f5e3a36cbf36cb4b348b88
 
 #EXTINF:-1 tvg-id="MNCTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png",MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://linier-mnctv.rctiplus.id/mnctv-sdi.m3u8?auth_key=1795568971-a024f6fa09d5ca7f53c087bb98d6bd7d-0-bea6414b7c05eb00d6ab46864c900fb2
+https://linier-mnctv.rctiplus.id/mnctv-sdi.m3u8?auth_key=1795603735-aa040abec4771b8b783a3678d5f24d13-0-3fca3617857acdbc19c3503f98bf020b
 
 #EXTINF:-1 tvg-id="GTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png",GTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://linier-gtv.rctiplus.id/gtv-sdi.m3u8?auth_key=1795568972-d8d1abe8b5e28ea3c1a1d3ac1b237696-0-a5620ac5062e05ebf88e9311be0aa52b
+https://linier-gtv.rctiplus.id/gtv-sdi.m3u8?auth_key=1795603735-c30d093dd35a0b6c830a57795dc549dd-0-823c5b86b2caf82d5f56efbe5d1fb461
 
 #EXTINF:-1 tvg-id="iNews" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png",iNews
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://linier-inews.rctiplus.id/inews-sdi.m3u8?auth_key=1795568972-5a4317d0fe5da61c96a7edc20baafcc9-0-823762f96c78e645bf5e7d25ed2b9195
+https://linier-inews.rctiplus.id/inews-sdi.m3u8?auth_key=1795603735-3cb34e8c8ddde497e5bb9f68485069c4-0-3858fbce985648cc25542a50b17de716

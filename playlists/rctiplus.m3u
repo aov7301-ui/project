@@ -1,22 +1,22 @@
 #EXTM3U
-# Generated: 2026-11-26 07:40:37
+# Generated: 2026-11-26 21:11:38
 
 #EXTINF:-1 tvg-id="RCTI" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png",RCTI
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://linier-rcti.rctiplus.id/rcti-sdi.m3u8?auth_key=1795689634-b464a1dc0e244fe63374869ba9d35ea2-0-0008b9f968cb00e5be25c16a40a16cd1
+https://poclive.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1795799497~hmac=3102ae0e659077e60addee8dcb9bd96464c83046e22f2a1b756e241305552f8e
 
 #EXTINF:-1 tvg-id="MNCTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png",MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://linier-mnctv.rctiplus.id/mnctv-sdi.m3u8?auth_key=1795689635-466a3751e88e21a503c77d2332815613-0-7825d41d95842d453640892c646290b2
+https://linier-mnctv.rctiplus.id/mnctv-sdi.m3u8?auth_key=1795738297-884a0bdd2adf1f56599472c519d8feb4-0-a4dc7867f2e2e471a252e9dfdeb0aa9e
 
 #EXTINF:-1 tvg-id="GTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png",GTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://linier-gtv.rctiplus.id/gtv-sdi.m3u8?auth_key=1795689636-eeefdb52db0e26f23fbc429ea7b395ff-0-820e9c5aa29c91b5d4b63daebdae7b30
+https://linier-gtv.rctiplus.id/gtv-sdi.m3u8?auth_key=1795738298-3774469e1a8f9f27f0ffb1287f3765a4-0-5b7787a60954762da37c780a39b273da
 
 #EXTINF:-1 tvg-id="iNews" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png",iNews
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://linier-inews.rctiplus.id/inews-sdi.m3u8?auth_key=1795689637-360c8f007ff90c50d6756007920230b2-0-743e0ba863b15fe7149e4c91126705ee
+https://linier-inews.rctiplus.id/inews-sdi.m3u8?auth_key=1795738298-03f2745adf00ce381e0a4e3b9948aa21-0-ba35dc4e8fc4bddd25455889f0ec6ec4

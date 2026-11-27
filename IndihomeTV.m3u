@@ -1,26 +1,26 @@
 #EXTM3U
 
 # === RCTI+ SECTION ===
-# Updated: 2026-11-26 21:11:38
+# Updated: 2026-11-27 07:38:24
 
 #EXTINF:-1 tvg-id="RCTI" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/RCTI.png",RCTI
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://poclive.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1795799497~hmac=3102ae0e659077e60addee8dcb9bd96464c83046e22f2a1b756e241305552f8e
+https://poclive.rctiplus.id/rcti-sdi.m3u8?hdnts=exp=1795837102~hmac=5aae152b6476aa6da7e69184335b4f208cf11dfde68a919f816c9d53fe277d82
 
 #EXTINF:-1 tvg-id="MNCTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/MNCTV.png",MNCTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://linier-mnctv.rctiplus.id/mnctv-sdi.m3u8?auth_key=1795738297-884a0bdd2adf1f56599472c519d8feb4-0-a4dc7867f2e2e471a252e9dfdeb0aa9e
+https://linier-mnctv.rctiplus.id/mnctv-sdi.m3u8?auth_key=1795775903-c3d1cd9cf9699a5ece1950d7cac0792f-0-821e16285accc12efdba95a34f0921b1
 
 #EXTINF:-1 tvg-id="GTV" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/GTV.png",GTV
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://linier-gtv.rctiplus.id/gtv-sdi.m3u8?auth_key=1795738298-3774469e1a8f9f27f0ffb1287f3765a4-0-5b7787a60954762da37c780a39b273da
+https://linier-gtv.rctiplus.id/gtv-sdi.m3u8?auth_key=1795775903-bc6490e3fcfb58a2f5a16b164104d68f-0-2742fc4401afbf4d9378e7e6ea49ad8e
 
 #EXTINF:-1 tvg-id="iNews" group-title="Nasional" tvg-logo="https://static.rctiplus.id/media/300/files/fta_rcti/Channel_Logo/iNews.png",iNews
 #EXTVLCOPT:http-referrer=https://m.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://linier-inews.rctiplus.id/inews-sdi.m3u8?auth_key=1795738298-03f2745adf00ce381e0a4e3b9948aa21-0-ba35dc4e8fc4bddd25455889f0ec6ec4
+https://linier-inews.rctiplus.id/inews-sdi.m3u8?auth_key=1795775903-69010466f2e59f5a994e801d9866a974-0-92b5b3c8c195e1c65c9c0022af76d7d1
 
 # === END RCTI+ SECTION ===
